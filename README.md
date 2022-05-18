@@ -26,7 +26,7 @@ The Kubernetes documentation gives you the url to download the dashboard.
 https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
 
 ```
-sudo kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.3.1/aio/deploy/recommended.yaml
+sudo kubectl apply -f kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.5.0/aio/deploy/recommended.yaml
 ```
 ### Create Dashboard User & Role ###
 ```
@@ -39,7 +39,7 @@ sudo kubectl -n kubernetes-dashboard describe secret admin-user-token | grep ^to
 ```
 ## Open the dashboard
 I recommend using a dedicated terminal as this command will create a token that
-you need to login.  Also, use firefox to open the url: https://127.0.0.1:10443/
+you need to login.  Also, use firefox to open the url: 
 ```
 sudo kubectl proxy
 ```
