@@ -1,4 +1,4 @@
-# Ambassador pattern with microk8s and redis #
+# Ambassador pattern with k3d and redis #
 This project highlights the Ambassador Pattern from the book "Designing Distributed Systems".  I used k3d.io for managing k8s clusters. I like the simplistic feel. Yes, the kubernetes OOB are great tools as well for single node (minikube + kind).
 
 ## create k3d cluster
